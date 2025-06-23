@@ -40,7 +40,7 @@ exports.login = asyncHandler(async (req, res) => {
 
     const options = {
         httpOnly: true,
-        // secure: true, // Remove or comment out for local development
+         secure: true, 
     }
 
     
